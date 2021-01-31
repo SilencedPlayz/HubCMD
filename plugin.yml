@@ -3,7 +3,7 @@ main: SilencedTick880\Main
 author: SilencedTick880
 description: "easy hub & spawn cmd plugin"
 api: 3.17.0
-version: 2.0
+version: 1.0
 
 commands:
   hub:
