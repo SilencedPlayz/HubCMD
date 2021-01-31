@@ -9,4 +9,4 @@ commands:
   hub:
     description: "teleport to main hub"
   spawn:
-    description: "teleport to main spawn on your level world"
+    description: "teleport to world spawn"
