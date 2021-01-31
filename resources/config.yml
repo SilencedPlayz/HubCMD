@@ -1,0 +1,25 @@
+## Edit Settings here
+
+## set to true if you want to show title when player execute the command
+## set to false to disable
+allow_title: true
+
+## set to true if you want to send private message to player when executing the command
+## set to false to disable
+allow_message: true
+
+## set to true to add sound the player after executing the command
+## set to false to disable
+allow_sound: true
+
+## edit hub messages,title,subtitle here
+
+hub_title: "Welcome to Server!"
+hub_subtitle: "GoodGame!"
+hub_message: "Have fun and follow the rules"
+
+## edit the spawn messages,title,subtitle here
+
+spawn_title: "Teleported to Spawn!"
+spawn_subtitle: "Have fun!"
+spawn_message: "Follow the rules!"
