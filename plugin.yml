@@ -1,0 +1,12 @@
+name: HubCMD
+main: SilencedTick880\Main
+author: SilencedTick880
+description: "easy hub & spawn cmd plugin"
+api: 3.17.0
+version: 2.0
+
+commands:
+  hub:
+    description: "teleport to main hub"
+  spawn:
+    description: "teleport to main spawn on your level world"
