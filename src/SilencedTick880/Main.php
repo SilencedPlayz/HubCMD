@@ -1,6 +1,6 @@
 <?php
 
-namespace SilencedTick880;
+namespace SilencedTick880\HubTransfer;
 
 use pocketmine\Server;
 use pocketmine\Player;
@@ -39,6 +39,8 @@ class main extends PluginBase implements Listener {
                                              if($this->getConfig()->get("allow_sound") == true){
                                                       $sender->getLevel()->addSound(new BlazeShootSound($sender));
                                              }
+                                    }else{
+                                             $sender->sendMessage("§bHubCMD by SilencedPlayz/SilencedTick880");
                                     }
                            break;
                            
@@ -56,6 +58,8 @@ class main extends PluginBase implements Listener {
                                              if($this->getConfig()->get("allow_sound") == true){
                                                       $sender->getLevel()->addSound(new BlazeShootSound($sender));
                                              }
+                                    }else{
+                                             $sender->sendMessage("§bHubCMD by SilencedPlayz/SilencedTick880");
                                     }
                            break;
                   }
