@@ -1,6 +1,6 @@
 <?php
 
-namespace SilencedTick880\HubTransfer;
+namespace SilencedTick880;
 
 use pocketmine\Server;
 use pocketmine\Player;
